@@ -99,7 +99,7 @@ app.use(express.json()); //pass incoming json data
 app.use(cookieParser()); //pass the cookie automatically
 const corsOptions = {
   headers: {
-  //  "Access-Control-Allow-Origin": "https://domain-a.com",
+    "Access-Control-Allow-Origin": "http://localhost:8000/",
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
    // "Access-Control-Allow-Headers": "Origin, Accept, X-Requested-With, Content-Type"
     Accept: 'application/json',
