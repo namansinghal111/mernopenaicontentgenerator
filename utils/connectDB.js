@@ -5,7 +5,7 @@ const connectDB = async () => {
   try {
     const conn = await mongoose.connect(
       //"mongodb://localhost:27017/masync-mern-ai"
-      MONGO_STRING
+      process.env.MONGO_STRING
     );
 
     console.log(`Mongodb connected ${conn.connection.host}`);
