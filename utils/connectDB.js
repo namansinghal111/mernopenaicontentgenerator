@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+require("dotenv").config();
 //PASS: '"mongodb+srv://twentekghana:I0XU4wUzi9rZCBil@masync-mern-ai.24hgrcc.mongodb.net/masync-mern-ai?retryWrites=true&w=majority"'
 const connectDB = async () => {
   try {
