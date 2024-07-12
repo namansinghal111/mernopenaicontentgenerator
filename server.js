@@ -102,7 +102,7 @@ const corsOptions = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
   },
-  origin: "http://localhost:3000",
+  origin: "https://master--mernaicontentgenerator.netlify.app",
   credentials: true,
 };
 app.use(cors(corsOptions));
