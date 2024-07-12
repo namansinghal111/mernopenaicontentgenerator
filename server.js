@@ -98,7 +98,7 @@ cron.schedule("0 0 1 * * *", async () => {
 app.use(express.json()); //pass incoming json data
 app.use(cookieParser()); //pass the cookie automatically
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://localhost:3000",
   credentials: true,
 };
 app.use(cors(corsOptions));
