@@ -104,7 +104,7 @@ const corsOptions = {
       "withCredentials" : false,
    "Access-Control-Allow-Headers": "Origin, Accept, X-Requested-With, Content-Type"
    // Accept: 'application/json',
-    'Content-Type': 'application/json'
+  //  'Content-Type': 'application/json'
    
   },
  origin: "https://mernaicontentgenerator.netlify.app",
