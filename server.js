@@ -103,7 +103,7 @@ const corsOptions = {
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
       "withCredentials" : false,
    "Access-Control-Allow-Headers": "Origin, Accept, X-Requested-With, Content-Type"
-    Accept: 'application/json',
+   // Accept: 'application/json',
     'Content-Type': 'application/json'
    
   },
