@@ -102,10 +102,9 @@ const corsOptions = {
     //"Access-Control-Allow-Origin": "http://localhost:8000/",
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
       "withCredentials" : false,
-     "Access-Control-Allow-Headers": *,
-   //"Access-Control-Allow-Headers": "Origin, Accept, X-Requested-With, Content-Type"
-   // Accept: 'application/json',
-  //  'Content-Type': 'application/json'
+   "Access-Control-Allow-Headers": "Origin, Accept, X-Requested-With, Content-Type"
+   "Accept": 'application/json',
+   'Content-Type': 'application/json'
    
   },
  origin: "https://mernaicontentgenerator.netlify.app",
