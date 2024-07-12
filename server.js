@@ -101,7 +101,7 @@ const corsOptions = {
   headers: {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
-    "Access-Control-Allow-Headers": "content-type"
+    "Access-Control-Allow-Headers": "Content-Type"
   },
   origin: "https://master--mernaicontentgenerator.netlify.app",
   credentials: true,
