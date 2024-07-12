@@ -105,7 +105,8 @@ const corsOptions = {
     Accept: 'application/json',
     'Content-Type': 'application/json'
   },
-  origin: "https://master--mernaicontentgenerator.netlify.app",
+ // origin: "https://master--mernaicontentgenerator.netlify.app",
+  origin: "http://localhost:3000"
   credentials: true,
 };
 app.use(cors(corsOptions));
