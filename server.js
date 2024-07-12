@@ -100,7 +100,8 @@ app.use(cookieParser()); //pass the cookie automatically
 const corsOptions = {
   headers: {
     "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS"
+    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+    "Access-Control-Allow-Headers": "content-type"
   },
   origin: "https://master--mernaicontentgenerator.netlify.app",
   credentials: true,
