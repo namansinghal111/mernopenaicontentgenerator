@@ -119,6 +119,7 @@ const corsOptions = {
   credentials: true,
 };
 app.use(cors(corsOptions));
+app.options('*', cors(corsOptions)); // Preflight requests
 //----Routes-----
 app.use("/api/v1/users", usersRouter);
 app.use("/api/v1/openai", openAIRouter);
