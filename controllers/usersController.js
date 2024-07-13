@@ -34,6 +34,9 @@ const register = asyncHandler(async (req, res) => {
 
   //Save the user
   await newUser.save();
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    
   res.json({
     status: true,
     message: "Registration was successfull",
