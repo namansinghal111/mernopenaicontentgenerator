@@ -93,6 +93,12 @@ cron.schedule("0 0 1 * * *", async () => {
   }
 });
 //Cron paid plan
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
+
 
 //----middlewares----
 app.use(express.json()); //pass incoming json data
